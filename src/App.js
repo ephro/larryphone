@@ -1,22 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Phone Numbers
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <ul style={{textAlign: "left"}}>
+          <li>
+            Add an input that takes a phone number
+          </li>
+          <li>
+            Add a button that submits the phone number
+          </li>
+          <li>
+            After button is pressed, show an unordered list with the phone number displayed X times, where X is the last
+            digit of the phone number
+          </li>
+          <li>
+            Add a "Reset" button on the display view that takes you back to the phone number input view
+          </li>
+        </ul>
       </header>
     </div>
   );
